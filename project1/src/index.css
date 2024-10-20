@@ -18,6 +18,8 @@ nav{
     justify-content: space-between;
     height: 72px;
     align-items: center;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
 }
 
 nav ul{

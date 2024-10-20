@@ -7,10 +7,10 @@ function Navbar(){
                     <img src="/images/brand_logo.png" alt="nike logo"/>
                 </div>
                     <ul>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li>MENU</li>
+                        <li>LOCATION</li>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
                     </ul>
                     <button>Login</button>
             </nav>
