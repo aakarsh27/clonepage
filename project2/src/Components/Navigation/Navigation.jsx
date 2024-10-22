@@ -1,8 +1,8 @@
-
+import styles from "./Navigation.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="container">
+    <nav className={styles.navigation}>
         <div className="logo">
             <img src="/images/logo.png" alt="logo" />
         </div>
