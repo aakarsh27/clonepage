@@ -14,9 +14,30 @@ const ContactForm = () => {
             <Button 
             isOutline = {true}
             text="VIA EMAIL FORM" icon= {<MdEmail fontSize="24px"/>}/>
-            
+            <form>
+                <div className={styles.form_control}>
+                    <label htmlFor='name'>Name</label>
+                    <input type="text" name="name"/>
+                </div>
+                <div className={styles.form_control}>
+                    <label htmlFor='email'>E-mail</label>
+                    <input type="text" name="email"/>
+                </div>
+                <div className={styles.form_control}>
+                    <label htmlFor='text'>Text</label>
+                    <textarea name='text' rows="8"/>
+                </div>
+                <div style={
+                    {display: "flex", justifyContent: "end"}
+                }>
+                    <Button text="SUBMIT"/>
+                </div>
+            </form>
+
         </div>
-        <div className={styles.contact_image}></div>
+        <div className={styles.contact_image}>
+            <img src="/images/contact.svg" alt='contact image'/>
+        </div>
     </section>
 
   )

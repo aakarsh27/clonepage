@@ -6,8 +6,11 @@ function App() {
   return (
     <>
     <Navigation/>
+    <main className="main_container">
     <ContactHeader/>
     <ContactForm/>
+    </main>
+    
     </>
   );
 }
