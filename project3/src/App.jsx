@@ -1,8 +1,11 @@
+import StartGame from "./Components/StartGame"
+
+
 function App() {
 
   return (
     <>
-    
+    <StartGame/>
     </>
   )
 }
