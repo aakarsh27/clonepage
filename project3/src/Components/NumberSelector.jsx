@@ -55,6 +55,4 @@ const Box = styled.div`
 
     background-color: ${(props) => props.isSelected ? "black" : "white"};
     color: ${(props) => !props.isSelected ? "black" : "white"};
-
-
 `
