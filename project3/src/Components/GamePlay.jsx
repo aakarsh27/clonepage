@@ -2,8 +2,13 @@ import NumberSelector from "./NumberSelector";
 import RollDice from "./RollDice";
 import TotalScore from "./TotalScore";
 import styled from "styled-components";
+import { useState } from "react";
 
 const GamePlay = () => {
+
+  const [selectedNumber, setSelectedNumber] = useState();
+
+
   return (
     <MainContainer>
         <div className="top_section">
